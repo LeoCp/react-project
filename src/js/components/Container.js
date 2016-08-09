@@ -5,7 +5,7 @@ export default class Container extends React.Component {
     return (
       <div className="container">
         <br/>
-        {this.props.page}
+        {this.props.children}
       </div>
     );
   }

@@ -9,7 +9,9 @@ export default class Layout extends React.Component {
     return (
       <div>
         <Header />
-        <Container page={this.props.children}/>
+        <Container >
+          {this.props.children}
+        </Container>
       </div>
     );
   }
