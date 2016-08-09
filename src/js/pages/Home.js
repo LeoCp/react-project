@@ -1,9 +1,11 @@
 import React from "react";
+import  Jumbotron from "../components/Jumbotron";
+
 export default class Home extends React.Component {
 
   render() {
     return (
-    <h1>Home</h1>
+      <Jumbotron title="Home" />
     );
   }
 }

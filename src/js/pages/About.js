@@ -1,9 +1,15 @@
 import React from "react";
-export default class About extends React.Component {
+import Jumbotron from "../components/Jumbotron";
+import AddForm from "../components/AddForm";
 
+export default class About extends React.Component {
   render() {
     return (
-    <h1>About</h1>
+      <div>
+        <Jumbotron title="Add">
+          <AddForm />
+        </Jumbotron>
+      </div>
     );
   }
 }
